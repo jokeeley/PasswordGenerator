@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    
+<div id="container">
+    <h2>Password Generator</h2>
+    <section id="result-container">
+        <span id="result"></span>
+        <button class="btn" id="clipboard">
+            <i class="fa-regular fa-clipboard"></i> 
+        </button>
+    </section>
+    <section id="options">
+        <div class="options">
+            <label for="lowercase">Lowercase Letters</label>
+            <input type="checkbox" id="lowercase" checked>
+        <div class="options">
+            <label for="lowercase">Uppercase Letters</label>
+            <input type="checkbox" id="uppercase" checked>
+        <div class="options">
+            <label for="lowercase">Numbers Letters</label>
+            <input type="checkbox" id="numbers" checked>
+        <div class="options">
+            <label for="lowercase">Symbols</label>
+            <input type="checkbox" id="symbols" checked>
+        <div class="options">
+            <label for="lowercase">Length</label>
+            <input type="checkbox" id="length" value="10" min="4" max="20" checked>
+        </div> 
+    </section>
+    <button class="btn" id="generate">Generate Password</button>
+</div>
+
+
+
+    
+
+<script src="https://kit.fontawesome.com/441bf3366b.js" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+
+
+</body>
+</html>
